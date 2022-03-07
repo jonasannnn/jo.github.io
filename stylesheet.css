@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+header ul li {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-right: 20px;
+}
+
+.home {
+  padding-top: 50px;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.about {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+}
+
+.about .about-image {
+  margin-top: 90px;
+}
+
+.about .about-image img {
+  height: 200px;
+  border-radius: 40px;
+}
+
+.about .about-text {
+  padding-left: 100px;
+}
+
+.skill {
+  padding: 100px 100px 0 100px;
+  background-color: oldlace;
+  width: 50%;
+}
+
+.work {
+  padding: 100px;
+}
+
+.work h2 {
+  text-align: center;
+}
+
+.contact {
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+.contact h2 {
+  padding-top: 30px;
+}
+
+.contact .contact-form {
+  padding-top: 5px;
+}
+
+.contact .contact-form .must {
+  border: solid 1px #66CDAA;
+  padding: 2px;
+  color: white;
+  background-color: #66CDAA;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-right: 5px;
+  display: inline-block;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.contact .contact-form .form-text {
+  margin-top: 20px;
+  vertical-align: bottom;
+}
+
+.contact .contact-form .message {
+  margin-bottom: 20px;
+}
+
+.contact .contact-form .btn-orange {
+  border: #eb6100;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.contact .contact-form .btn-orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+/*# sourceMappingURL=stylesheet.css.map */
